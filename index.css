@@ -1,0 +1,151 @@
+/* general styling */
+.text-center {
+  text-align: center;
+}
+
+/* navbar */
+
+.custom-nav {
+  position: fixed;
+  width: 100%;
+}
+
+.right-nav {
+  justify-content: flex-end;
+}
+
+.nav-item a {
+  color: white;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-item a:hover {
+  color: orange;
+}
+
+.btn-li {
+  display: flex;
+}
+
+.num-btn {
+  background-color: orange;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+.num-btn:hover {
+  background: transparent;
+  border: 1px solid gray;
+}
+
+.nav-item .active {
+  color: orange;
+}
+
+/* banner-sec */
+
+#banner-sec {
+  height: 100vh;
+  background: url(./images/bg/bg-1.jpg) no-repeat;
+  background-size: cover;
+}
+
+.banner {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+}
+
+.banner span {
+  background-color: orange;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.banner h1,
+h3 {
+  color: white;
+}
+
+.order-btn {
+  width: 150px;
+  padding: 20px;
+}
+
+/* cat-sec */
+
+#cat-sec {
+  /* height: 100vh; */
+  background-color: red;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cat-card {
+  height: 350px;
+  width: 250px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.cat-card:hover {
+  background-color: orange;
+  cursor: pointer;
+}
+
+/* about-sec */
+#about-sec {
+  height: 100vh;
+  background-color: green;
+}
+
+.about {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.about-left {
+  width: 50%;
+  height: 100%;
+  padding: 100px;
+}
+
+.about-left img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+}
+.about-right {
+  width: 50%;
+  height: 100%;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* features-sec */
+
+#features-sec {
+  height: 100vh;
+  background-color: purple;
+}
